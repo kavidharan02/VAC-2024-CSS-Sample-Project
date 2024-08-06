@@ -1,0 +1,81 @@
+body{
+    background-image: url("nature.jpg");
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    display: inline;
+}
+.one {
+    margin-top: 10px;
+    color: #ffffff;
+    display: flex;
+    height: 60px; 
+    border: 10px;
+    background-color:grey; 
+    
+}
+
+.one ul{
+    
+     display: inline;
+    list-style: none;
+    margin-left: 57%; 
+}
+.one ul li{
+
+    padding: 0 10px;
+    padding-top: 5px;
+    display: inline-block;
+    
+}
+.one ul li:hover{
+    cursor: pointer;
+}
+.pass {
+    font-size: 55px;
+    margin-top: 10px;
+    color: yellow;
+    font-family: Arial, sans-serif;
+    padding-top: 70px; 
+    padding-left: 90px;
+    text-align: left;
+}
+
+.box {
+    font-size: 50px;
+    border:2px solid red;
+    color: white;
+    background-color:red;
+    margin-top: 5px;
+    margin-left:90px;
+    margin-right: 1130px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.para{
+    padding-top:2px ;
+    margin-top: 35px;
+    margin-left:100px;
+    margin-right: 780px;
+    font-size: 15px;
+    color: white;
+}
+.box1{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    border:2px solid red;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:30px ;
+    background-color: rgb(255, 0, 0);
+    margin-top: 50px;
+    margin-left: 88px;
+    margin-right: 1150px;
+   
+}
